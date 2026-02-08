@@ -1,93 +1,91 @@
-📊 Employee Salary Prediction Using Machine Learning
-📌 Project Overview
+# 📊 Employee Salary Prediction Using Machine Learning
 
-This project focuses on predicting employee salaries using machine learning techniques. By analyzing factors such as experience, education, department, and job role, the model helps organizations make data-driven salary decisions.
+## 📌 Overview
+This project predicts employee salaries using machine learning techniques based on factors such as experience, education, job role, and department. It demonstrates the complete data science workflow, from data preprocessing and exploratory data analysis (EDA) to model training and evaluation.
 
-The project demonstrates the complete data science lifecycle — from data preprocessing and exploratory data analysis (EDA) to model building and evaluation.
+The project is implemented as a single Python file and executed using VS Code.
 
-🎯 Objectives
+---
 
-Analyze employee data to understand salary trends
+## 🎯 Objectives
+- Analyze employee data to identify key factors affecting salary  
+- Perform data cleaning and exploratory data analysis (EDA)  
+- Build and compare machine learning models  
+- Predict employee salaries with high accuracy  
 
-Perform data cleaning and feature engineering
+---
 
-Build machine learning models for salary prediction
+## 🗂️ Dataset
+The dataset contains the following features:
+- Age  
+- Education Level  
+- Job Role  
+- Department  
+- Years of Experience  
+- Monthly Salary  
 
-Compare model performance and select the best one
+**Format:** CSV (sample data is also created within the Python file)  
+**Source:** Kaggle / HR Dataset  
 
-🗂️ Dataset
+---
 
-The dataset includes the following features:
+## 🛠️ Tools & Technologies
+- **Language:** Python  
+- **Libraries:**  
+  - Pandas  
+  - NumPy  
+  - Matplotlib  
+  - Seaborn  
+  - Scikit-learn  
+- **Development Environment:** VS Code  
 
-Age
+---
 
-Education Level
+## 🔍 Project Workflow
+1. Data Collection  
+2. Data Cleaning & Preprocessing  
+3. Exploratory Data Analysis (EDA)  
+4. Feature Engineering  
+5. Model Training  
+6. Model Evaluation  
 
-Job Role
+---
 
-Department
+## 🤖 Machine Learning Models Used
+- Linear Regression  
+- Random Forest Regressor  
 
-Years of Experience
+**Evaluation Metrics:**
+- R² Score  
+- Mean Absolute Error (MAE)  
 
-Monthly Salary
+---
 
-Format: CSV
-Source: Kaggle / HR Dataset
+## 📈 Results
+- Random Forest performed better than Linear Regression  
+- Years of experience and job role were the most influential features  
+- The final model achieved strong salary prediction accuracy  
 
-🛠️ Tools & Technologies
+---
 
-Language: Python
+## 📌 Conclusion
+This project demonstrates how machine learning can be effectively used to predict employee salaries and support data-driven compensation decisions.
 
-Libraries:
+---
 
-Pandas
+## 🚀 Future Scope
+- Add more features such as skills, location, and performance ratings  
+- Implement advanced models like XGBoost  
+- Deploy the project using Flask or Streamlit  
 
-NumPy
+---
 
-Matplotlib
+## ▶️ How to Run (Using VS Code)
 
-Seaborn
-
-Scikit-learn
-
-IDE: Jupyter Notebook / VS Code
-
-🔍 Project Workflow
-
-Data Collection
-
-Data Cleaning & Preprocessing
-
-Exploratory Data Analysis (EDA)
-
-Feature Engineering
-
-Model Training
-
-Model Evaluation
-
-🤖 Machine Learning Models Used
-
-Linear Regression
-
-Random Forest Regressor
-
-Evaluation Metrics:
-
-R² Score
-
-Mean Absolute Error (MAE)
-
-📈 Results
-
-Random Forest outperformed Linear Regression
-
-Years of experience and job role had the highest impact on salary
-
-The final model achieved strong predictive accuracy
-📌 Conclusion
-
-This project proves that machine learning can be effectively used to predict employee salaries and assist HR departments in making fair and accurate compensation decisions.
+### Step 1: Clone the Repository
+```bash
+git clone https://github.com/your-username/employee-salary-prediction.git
+cd employee-salary-prediction
 
 🚀 Future Enhancements
 
